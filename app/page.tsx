@@ -8,7 +8,7 @@ export default function Home() {
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: 'url(/main-bg.webp)' }}
       >
-        {/* pl-20 */}
+        {/* pl-20  l */}
         <div className="text-left pb-56 md:pb-20 md:pl-8   flex flex-col gap-5 z-[11] max-w-[750px] ">
           <h1 className="sm:w-[60%] md:w-full ml-4 text-4xl md:text-5xl lg:text-[50px] text-white font-semibold">
             Créez l'avenir avec le
