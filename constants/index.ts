@@ -87,7 +87,7 @@ export const Socials = [
   },
   {
     name: 'Linkedin',
-    src: '/LinkedinSvg.svg',
+    src: '/linkedinSvg.svg',
     link: 'https://www.linkedin.com/in/moulay-edda-a94604293/',
   },
   // {
