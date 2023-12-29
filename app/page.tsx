@@ -8,7 +8,6 @@ export default function Home() {
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: 'url(/main-bg.webp)' }}
       >
-        {/* pl-20  l */}
         <div className="text-left pb-56 md:pb-20 md:pl-8   flex flex-col gap-5 z-[11] max-w-[750px] ">
           <h1 className="sm:w-[60%] md:w-full ml-4 text-4xl md:text-5xl lg:text-[50px] text-white font-semibold">
             Créez l'avenir avec le
@@ -28,51 +27,8 @@ export default function Home() {
             </Link>{' '}
             en développement web.
           </p>
-          {/* <div className="flex-col md:flex-row hidden md:flex gap-5">
-            <Link
-              href="/my-skills"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white maw-w-[200px] "
-            >
-              En savoir plus
-            </Link>
-            <Link
-              href="/my-projects"
-              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white maw-w-[200px] "
-            >
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 " />
-              Mes Projets
-            </Link>
-            <Link
-              href="/contact-me"
-              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white maw-w-[200px] "
-            >
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 " />
-              Contactez-moi
-            </Link>
-          </div> */}
         </div>
       </div>
-
-      {/* <div className=" absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5 ">
-        <Link
-          href="/my-skills"
-          className="rounded-[20px] group bg-blue-500  px-5 py-3 text-lg text-white maw-w-[200px] "
-        >
-          Learn more
-        </Link>
-        <Link
-          href="/my-projects"
-          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white maw-w-[200px] "
-        >
-          My Projects
-        </Link>
-        <Link
-          href="/contact-me"
-          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white maw-w-[200px] "
-        >
-          Contact Me
-        </Link>
-      </div> */}
 
       <div className="absolute bottom-0 right-0 z-[10]">
         <Image
