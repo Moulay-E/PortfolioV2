@@ -39,10 +39,10 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm('YOUR_FORM_ID');
+  const [state, handleSubmit] = useForm('xwkdjqer');
 
   if (state.succeeded) {
-    return <p>Email Envoyé !</p>;
+    return <p className="text-white">Email Envoyé !</p>;
   }
 
   return (
@@ -72,10 +72,14 @@ export default function ContactForm() {
           errors={state.errors}
         />
       </div>
-      <button type="submit" disabled={state.submitting}>
+      <button
+        type="submit"
+        disabled={state.submitting}
+        className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400"
+      >
         Submit
       </button>
-      <ValidationError errors={state.errors} />
+      <ValidationError className="text-white" errors={state.errors} />
     </form>
   );
 }
