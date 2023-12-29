@@ -55,11 +55,15 @@ const ProjectCard = ({
           style={{
             backgroundImage: `url(${image}) `,
           }}
-          className="cursor-pointer w-full h-full group relative flip-card-front bg-cover bg-center text-white rounded-lg p-4 "
+          className="cursor-pointer w-full h-full group relative flip-card-front bg-cover bg-center text-white rounded-lg p-4 transition-transform hover:scale-105"
         >
           <div className="" />
-          <div className="absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center ">
-            Learn more &gt;
+          <div className="absolute inset-0 w-full h-full text-2xl font-semibold pt-2 hidden group-hover:flex items-center z-[20] justify-center ">
+            <div className="bg-transparent">
+              <span className="bg-gradient-to-r from-purple-500 to-red-500 bg-clip-text text-transparent ">
+                Learn more &gt;
+              </span>
+            </div>
           </div>
         </div>
         {/* backside of the card */}

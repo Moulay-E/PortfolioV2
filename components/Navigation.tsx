@@ -36,7 +36,7 @@ const Navigation = () => {
         <Link
           key={nav.name}
           href={nav.link}
-          className=" min-w-[20%] flex justify-center items-center h-[100px]"
+          className=" min-w-[20%] flex justify-center items-center h-[100px] transition-transform hover:scale-110"
         >
           <nav.icon
             className={` w-[24px] h-[24px] lg:w-[24px] lg:h-[24px]  ${
