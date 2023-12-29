@@ -16,7 +16,7 @@ const Page = () => {
           lio{' '}
         </span>
       </h2>
-      <div className="overflow-scroll md:overflow-hidden grid grid-cols-1 gap-8 md:gap-5 md:grid-cols-2 flex-col w-[80%] h-[80%] md:w-[90%] md:h-[70%] mb-20">
+      <div className="overflow-scroll md:overflow-hidden grid grid-cols-1 gap-8 md:gap-8 md:grid-cols-2 flex-col w-[80%] h-[80%]  md:max-w-[80%] lg:max-w-[60%] md:h-[70%] mb-20  ">
         {projectData.map((project, index) => (
           <ProjectCard
             key={index}
